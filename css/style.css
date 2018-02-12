@@ -83,4 +83,150 @@
   font-size: 40px;
   font-weight: bold; }
 
+/* animation */
+.animatedMice {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.mouseone {
+  padding: 20px;
+  margin-bottom: 50px;
+  -webkit-animation: jump 1s infinite;
+  animation: jump 1s infinite; }
+
+@keyframes jump {
+  0% {
+    transform: translateY(-20px); }
+  50% {
+    transform: translateY(50px); }
+  100% {
+    transform: translateY(-20px); } }
+.mousetwo {
+  padding: 20px;
+  margin-bottom: 50px;
+  -webkit-animation: jump 1s infinite;
+  animation: jump 1s infinite;
+  animation-delay: 0.15s; }
+
+@keyframes jump {
+  0% {
+    transform: translateY(-20px); }
+  50% {
+    transform: translateY(50px); }
+  100% {
+    transform: translateY(-20px); } }
+.mousethree {
+  padding: 20px;
+  margin-bottom: 50px;
+  -webkit-animation: jump 1s infinite;
+  animation: jump 1s infinite;
+  animation-delay: 0.3s; }
+
+@keyframes jump {
+  0% {
+    transform: translateY(-20px); }
+  50% {
+    transform: translateY(50px); }
+  100% {
+    transform: translateY(-20px); } }
+.mousefour {
+  padding: 20px;
+  margin-bottom: 50px;
+  -webkit-animation: jump 1s infinite;
+  animation: jump 1s infinite;
+  animation-delay: 0.45s; }
+
+@keyframes jump {
+  0% {
+    transform: translateY(-20px); }
+  50% {
+    transform: translateY(50px); }
+  100% {
+    transform: translateY(-20px); } }
+.mousefive {
+  padding: 20px;
+  margin-bottom: 50px;
+  -webkit-animation: jump 1s infinite;
+  animation: jump 1s infinite;
+  animation-delay: 0.6s; }
+
+@keyframes jump {
+  0% {
+    transform: translateY(-20px); }
+  50% {
+    transform: translateY(50px); }
+  100% {
+    transform: translateY(-20px); } }
+.mousesix {
+  padding: 20px;
+  margin-bottom: 50px;
+  -webkit-animation: jump 1s infinite;
+  animation: jump 1s infinite;
+  animation-delay: 0.75s; }
+
+@keyframes jump {
+  0% {
+    transform: translateY(-20px); }
+  50% {
+    transform: translateY(50px); }
+  100% {
+    transform: translateY(-20px); } }
+.mouseseven {
+  padding: 20px;
+  margin-bottom: 50px;
+  -webkit-animation: jump 1s infinite;
+  animation: jump 1s infinite;
+  animation-delay: 0.9s; }
+
+@keyframes jump {
+  0% {
+    transform: translateY(-20px); }
+  50% {
+    transform: translateY(50px); }
+  100% {
+    transform: translateY(-20px); } }
+.mouseeight {
+  padding: 20px;
+  margin-bottom: 50px;
+  -webkit-animation: jump 1s infinite;
+  animation: jump 1s infinite;
+  animation-delay: 1.05s; }
+
+@keyframes jump {
+  0% {
+    transform: translateY(-20px); }
+  50% {
+    transform: translateY(50px); }
+  100% {
+    transform: translateY(-20px); } }
+.mousenine {
+  padding: 20px;
+  margin-bottom: 50px;
+  -webkit-animation: jump 1s infinite;
+  animation: jump 1s infinite;
+  animation-delay: 1.2s; }
+
+@keyframes jump {
+  0% {
+    transform: translateY(-20px); }
+  50% {
+    transform: translateY(50px); }
+  100% {
+    transform: translateY(-20px); } }
+.mouseten {
+  padding: 20px;
+  margin-bottom: 50px;
+  -webkit-animation: jump 1s infinite;
+  animation: jump 1s infinite;
+  animation-delay: 1.35s; }
+
+@keyframes jump {
+  0% {
+    transform: translateY(-20px); }
+  50% {
+    transform: translateY(50px); }
+  100% {
+    transform: translateY(-20px); } }
+
 /*# sourceMappingURL=style.css.map */
