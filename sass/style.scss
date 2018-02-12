@@ -13,7 +13,17 @@ $font-size: 24px;
 @mixin shadow-button-hover {
 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
-
+@mixin jump {
+  0% {
+ transform: translateY(-20px);
+ }
+ 50% {
+ transform: translateY(50px);
+ }
+ 100% {
+   transform: translateY(-20px);
+ }
+}
 /* -MAIN PAGE- */
 
 .bodyMain {
@@ -88,7 +98,9 @@ text-align: center;
 .bodyQuestion p {
   font-weight: bold;
 }
-
+.bounceOut {
+  animation-delay: 2s;
+}
 
 /* ending question page */
 /* styling result page */
@@ -110,4 +122,110 @@ text-align: center;
 .bodyResult-mainResultPage-heading-bigSize {
   font-size: 40px;
   font-weight: bold;
+}
+/* animation */
+.animatedMice {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+  @mixin mice {
+    padding: 20px ;
+    margin-bottom: 50px;
+  }
+
+.mouseone {
+  @include mice;
+    -webkit-animation: jump 1s infinite  ;
+    animation: jump 1s infinite ;
+}
+ @keyframes jump {
+ @include jump ;
+}
+.mousetwo {
+  @include mice;
+    -webkit-animation: jump 1s infinite  ;
+    animation: jump 1s infinite ;
+    animation-delay: 0.15s;
+}
+ @keyframes jump {
+ @include jump ;
+}
+.mousethree {
+  @include mice;
+    -webkit-animation: jump 1s infinite  ;
+    animation: jump 1s infinite ;
+    animation-delay: 0.3s;
+}
+ @keyframes jump {
+ @include jump ;
+}
+.mousefour {
+  @include mice;
+    -webkit-animation: jump 1s infinite  ;
+    animation: jump 1s infinite ;
+    animation-delay: 0.45s;
+}
+ @keyframes jump {
+ @include jump ;
+}
+.mousefive {
+  @include mice;
+    -webkit-animation: jump 1s infinite  ;
+    animation: jump 1s infinite ;
+    animation-delay: 0.6s;
+}
+ @keyframes jump {
+ @include jump ;
+
+}
+.mousesix {
+  @include mice;
+    -webkit-animation: jump 1s infinite  ;
+    animation: jump 1s infinite ;
+    animation-delay: 0.75s;
+}
+ @keyframes jump {
+ @include jump ;
+
+}
+.mouseseven {
+  @include mice;
+    -webkit-animation: jump 1s infinite  ;
+    animation: jump 1s infinite ;
+    animation-delay: 0.9s;
+}
+ @keyframes jump {
+ @include jump ;
+
+}
+.mouseeight {
+  @include mice;
+    -webkit-animation: jump 1s infinite  ;
+    animation: jump 1s infinite ;
+    animation-delay: 1.05s;
+}
+ @keyframes jump {
+ @include jump ;
+
+}
+.mousenine {
+  @include mice;
+    -webkit-animation: jump 1s infinite  ;
+    animation: jump 1s infinite ;
+    animation-delay: 1.2s;
+}
+ @keyframes jump {
+ @include jump ;
+
+}
+.mouseten {
+  @include mice;
+    -webkit-animation: jump 1s infinite  ;
+    animation: jump 1s infinite ;
+    animation-delay: 1.35s;
+}
+ @keyframes jump {
+ @include jump ;
+
 }
