@@ -122,10 +122,14 @@ text-align: center;
   @extend  .bodyMain-mainMainPage-sectionButton--center-startButton-center;
   background-color: #0A8A82;
   margin-top: 30px;
+  margin-bottom: 50px;
 }
 .bodyResult-mainResultPage-heading-bigSize {
   font-size: 40px;
   font-weight: bold;
+}
+.bodyResult-mainResultPage-resultText--center {
+  margin-top: 30px;
 }
 /* styling result page end */
 
@@ -251,4 +255,8 @@ text-align: center;
 }
 input {
   margin-bottom: 30px;
+}
+h1 {
+  font-size: 35px;
+  margin-bottom: 20px;
 }
