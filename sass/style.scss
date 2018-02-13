@@ -95,6 +95,7 @@ text-align: center;
 .bodyQuestion-questionPage {
   @include display-flex;
   justify-content: flex-start;
+  margin: 10px;
 }
 .bodyQuestion p {
   font-weight: bold;
