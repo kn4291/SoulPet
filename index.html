@@ -9,23 +9,28 @@
 <link rel="stylesheet" type="text/css" href="css/style.css.map">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
-<body onload="enterName()" class="bodyMain">
+<body class="bodyMain">
+
   <header class="bodyMain-headerMainPage">
+  <!-- AUDIO EFFECTS -->
     <audio autoplay>
       <source src="audio/catpurr.mp3" type="audio/mp3">
     </audio>
+    <!-- LOGO IMAGE -->
 <img class="bodyMain-headerMainPage-logoMain--center" src="img/logo2.png" alt="logo on main page"/>
   </header>
 
   <main class="bodyMain-mainMainPage">
-    <section>
-<div class="demo">
-    <p id="demo"></p></div>
+<p class="bodyMain-mainMainPage-sectionText--center-paragraph--center">Enter your name here</p>
+<section class="bodyMain-mainMainPage-sectionText--center">
+  <div id="app-6" class="bodyMain-mainMainPage-sectionText--center-paragraph--center">
+  <input v-model="message">
+  <p>{{ 'Hello ' + message }}</p>
   <p class="bodyMain-mainMainPage-sectionText--center-paragraph--center">This is a quiz to tell you which animal you should get as a life companion! <br>Answer these 5 questions and find out your destiny!</p>
     </section>
 
 <section class="bodyMain-mainMainPage-sectionButton--center">
-  <button id="startbutton" class="bodyMain-mainMainPage-sectionButton--center-startButton-center" onclick="window.location.href='/SoulPet/question.html'">Start</button>
+  <button id="startbutton" class="bodyMain-mainMainPage-sectionButton--center-startButton-center">Start</button>
 </section>
 
   </main>
