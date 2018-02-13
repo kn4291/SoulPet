@@ -35,5 +35,4 @@ window.location.href = "resultstwo.html"; return false;
 if (document.forms["colors"].color.value == "green") {
 window.location.href = "resultsfour.html"; return false;
 }
-
 }
