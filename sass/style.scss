@@ -114,6 +114,7 @@ text-align: center;
 }
 .bodyResult-headerResultPage {
   @extend .bodyQuestion-questionPage;
+  margin:10px;
 }
 .bodyResult-mainResultPage-shareButton--center {
   @extend  .bodyMain-mainMainPage-sectionButton--center-startButton-center;
