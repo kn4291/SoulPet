@@ -1,13 +1,17 @@
+
+//Enter your name function (START SCREEN)
 function enterName() {
     var person = prompt("Please enter your name:", "Harry Potter");
     document.getElementById("demo").innerHTML = 'Hello ' + person + '!';
 }
 
+
+//Start button on start screen
 document.getElementById("startbutton").onclick = function () {
   location.href= "question.html";
 }
 
-
+// Question alert functions
 function myFunction() {
   //alert functions
   if (document.forms["genders"].gender.value == "") {
@@ -25,7 +29,10 @@ function myFunction() {
   if (document.forms["colors"].color.value == "") {
     alert("You'll have to choose your favorite color"); return false;
   }
+
 //favorite color controls which result page to show
+
+
 if (document.forms["colors"].color.value == "blue") {
 window.location.href = "results.html"; return false;
 }
@@ -41,4 +48,5 @@ window.location.href = "resultstwo.html"; return false;
 if (document.forms["colors"].color.value == "green") {
 window.location.href = "resultsfour.html"; return false;
 }
+
 }
