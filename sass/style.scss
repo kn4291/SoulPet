@@ -120,7 +120,7 @@ text-align: center;
 }
 .bodyResult-mainResultPage-shareButton--center {
   @extend  .bodyMain-mainMainPage-sectionButton--center-startButton-center;
-  background-color: #0A8A82;
+  background-color: #7F266C;
   margin-top: 30px;
   margin-bottom: 50px;
 }
@@ -260,4 +260,19 @@ input {
 h1 {
   font-size: 35px;
   margin-bottom: 20px;
+}
+.btnone {
+  background-color: #0A8A82;
+}
+.btntwo {
+  background-color: #A60020;
+}
+.btnthree {
+  background-color: #FF8700;
+}
+.btnfour {
+  background-color: #007F25;
+}
+.btnfive {
+  background-color: #7BA603;
 }
