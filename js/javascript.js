@@ -1,9 +1,4 @@
 
-//Enter your name function (START SCREEN)
-function enterName() {
-    var person = prompt("Please enter your name:", "Harry Potter");
-    document.getElementById("demo").innerHTML = 'Hello ' + person + '!';
-}
 
 
 //Start button on start screen
