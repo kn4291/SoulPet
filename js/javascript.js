@@ -29,8 +29,10 @@ function myFunction() {
   if (document.forms["colors"].color.value == "") {
     alert("You'll have to choose your favorite color"); return false;
   }
-  
+
 //favorite color controls which result page to show
+
+
 if (document.forms["colors"].color.value == "blue") {
 window.location.href = "results.html"; return false;
 }
@@ -46,4 +48,5 @@ window.location.href = "resultstwo.html"; return false;
 if (document.forms["colors"].color.value == "green") {
 window.location.href = "resultsfour.html"; return false;
 }
+
 }
