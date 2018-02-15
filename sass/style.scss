@@ -113,28 +113,28 @@ text-align: center;
 
 /* ending question page */
 /* styling result page */
-.bodyResult {
+.bodyResults {
   background-color: #0FCBBF;
   color: $text-color;
   font: 100% $font-stack;
   text-align: center;
   font-size: $font-size;
 }
-.bodyResult-headerResultPage {
+.resultsHeader {
   @extend .questionHeader;
   margin:10px;
 }
-.bodyResult-mainResultPage-shareButton--center {
+.shareButtonSection-button {
   @extend  .startButtonSection-button;
   background-color: #7F266C;
   margin-top: 30px;
   margin-bottom: 50px;
 }
-.bodyResult-mainResultPage-heading-bigSize {
+.resultsHeading {
   font-size: 40px;
   font-weight: bold;
 }
-.bodyResult-mainResultPage-resultText--center {
+.resultsParagraph {
   margin-top: 30px;
 }
 /* styling result page end */
