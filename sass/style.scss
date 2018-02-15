@@ -132,6 +132,10 @@ text-align: center;
   @extend .bodyResults;
     background-color: #FFB800;
 }
+.resultstwoBody{
+  @extend .bodyResults;
+    background-color: #FF0031;
+}
 .resultsHeader {
   @extend .questionHeader;
   margin:10px;
@@ -153,6 +157,10 @@ text-align: center;
 .shareButtonSection-button--yellow{
   @extend .shareButtonSection-button;
     background-color:#FF8700;
+}
+.shareButtonSection-button--red{
+  @extend .shareButtonSection-button;
+    background-color:#A60020;
 }
 .resultsHeading {
   font-size: 40px;
@@ -272,10 +280,6 @@ text-align: center;
 
 }
 /* animation ends */
-.two {
-  background-color: #FF0031;
-}
-
 
 input {
   margin-bottom: 30px;
@@ -286,7 +290,4 @@ h1 {
 }
 .btnone {
   background-color: #0A8A82;
-}
-.btntwo {
-  background-color: #A60020;
 }
