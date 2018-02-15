@@ -12,58 +12,57 @@
 </head>
 <body class="bodyQuestion">
 
-  <header class="bodyQuestion-questionPage">
+  <header class="questionHeader">
       <!-- LOGO IMAGE -->
-<a href="index.html"><img class="bodyQuestion-questionPage-logoQuestion--positionLeftCorner" src="img/logosmall.png" alt="logo on subpages"/></a>
+<a href="index.html"><img src="img/logosmall.png" alt="logo on subpages"></a>
 
   </header>
 
-  <main class="bodyQuestion-mainQuestionPage">
-
+  <main>
 
 <!-- QUESTIONS -->
-<section class="bodyQuestion-mainQuestionPage-sectionQuestionOne--center">
+<section>
   <p class="animated jackInTheBox">
     What's your gender?
   </p>
-  <form action="" class="bodyQuestion-mainQuestionPage-radiobuttons--center" name="genders">
+  <form action="" name="genders">
   <input type="radio" name="gender" value="male"> Male
   <input type="radio" name="gender" value="female"> Female
   <input type="radio" name="gender" value="other"> Other
 </form>
 </section>
-<section class="bodyQuestion-mainQuestionPage-sectionQuestionTwo--center" class="displayNone">
+<section>
 <p class="animated jackInTheBox">
     What's your relationship status?
   </p>
-<form action="" class="bodyQuestion-mainQuestionPage-radiobuttons--center" name="relationships">
+<form action="" name="relationships">
   <input type="radio" name="relationshipstatus" value="single">Single
   <input type="radio" class="animated bounceOut" name="relationshipstatus" value="in a relationship">In a relationship
 </form>
 </section>
-<section class="bodyQuestion-mainQuestionPage-sectionQuestionThree--center" class="displayNone">
+<section class="displayNone">
   <p class="animated jackInTheBox">
     Are you more than 170cm tall?
   </p>
-  <form action="" class="bodyQuestion-mainQuestionPage-radiobuttons--center" name="heights">
+  <form action="" name="heights">
   <input type="radio" name="height" value="yes">Yes
   <input type="radio" name="height" value="no">No
 </form>
     </section>
-  <section class="bodyQuestion-mainQuestionPage-sectionQuestionFour--center" class="displayNone">
+  <section class="displayNone">
   <p class="animated jackInTheBox">
     Are you left or right handed?
   </p>
-  <form action="" class="bodyQuestion-mainQuestionPage-radiobuttons--center" name="rightleft">
+  <form action="" name="rightleft">
   <input type="radio" name="handed" value="right">Right
   <input type="radio" name="handed" value="left">Left
 </form>
 </section>
-<section class="bodyQuestion-mainQuestionPage-sectionQuestionFive--center" class="displayNone">
+<section>
 <p class="animated jackInTheBox">
   What's your favorite color?
 </p>
-<form action="" class="bodyQuestion-mainQuestionPage-radiobuttons--center" name="colors">
+<form action="" name="colors">
 <div v-if="type==='blue'"><input type="radio" name="color" value="blue">Blue</div>
 <div v-if="type==='orange'"><input type="radio" name="color" value="orange">Orange</div>
 <div v-if="type==='black'"><input type="radio" name="color" value="black">Black</div>
@@ -73,23 +72,23 @@
 </section>
 
 <!-- NEXT BUTTON -->
-<section class="bodyQuestion-mainQuestionPage-sectionButton-center">
-<button onclick="myFunction()" class="bodyQuestion-mainQuestionPage-nextButton--center" id="nextquestion">Next</button>
+<section class="nextButtonSection">
+<button onclick="myFunction()" class="nextButtonSection-button" id="nextquestion">Next</button>
 </section>
 
 
 <!-- MOUSE ANIMATIONS -->
 <section class="animatedMice">
-  <img class="mouseone" src="img/mouse.png"/>
-  <img class="mousetwo" src="img/mouse.png"/>
-  <img class="mousethree" src="img/mouse.png"/>
-  <img class="mousefour" src="img/mouse.png"/>
-  <img class="mousefive" src="img/mouse.png"/>
-  <img class="mousesix" src="img/mouse.png"/>
-  <img class="mouseseven" src="img/mouse.png"/>
-  <img class="mouseeight" src="img/mouse.png"/>
-  <img class="mousenine" src="img/mouse.png"/>
-  <img class="mouseten" src="img/mouse.png"/>
+  <img class="animatedMice-one" src="img/mouse.png"/>
+  <img class="animatedMice-two" src="img/mouse.png"/>
+  <img class="animatedMice-three" src="img/mouse.png"/>
+  <img class="animatedMice-four" src="img/mouse.png"/>
+  <img class="animatedMice-five" src="img/mouse.png"/>
+  <img class="animatedMice-six" src="img/mouse.png"/>
+  <img class="animatedMice-seven" src="img/mouse.png"/>
+  <img class="animatedMice-eight" src="img/mouse.png"/>
+  <img class="animatedMice-nine" src="img/mouse.png"/>
+  <img class="animatedMice-ten" src="img/mouse.png"/>
 </section>
 
   </main>
