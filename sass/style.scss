@@ -44,6 +44,12 @@ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 .introSection {
   font-size: $font-size;
     @include display-flex;
+    flex-direction: column;
+    @include margin-auto;
+}
+.introSection p {
+  @include margin-auto;
+  text-align: center;
 }
 .introSection-paragraph {
 @include margin-auto;
