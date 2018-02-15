@@ -120,6 +120,10 @@ text-align: center;
   text-align: center;
   font-size: $font-size;
 }
+.resultsfiveBody{
+  @extend .bodyResults;
+    background-color: #B4F205;
+}
 .resultsHeader {
   @extend .questionHeader;
   margin:10px;
@@ -129,6 +133,10 @@ text-align: center;
   background-color: #7F266C;
   margin-top: 30px;
   margin-bottom: 50px;
+}
+.shareButtonSection-button--lightgreen{
+  @extend .shareButtonSection-button;
+    background-color: #7BA603;
 }
 .resultsHeading {
   font-size: 40px;
@@ -257,9 +265,6 @@ text-align: center;
 .four {
   background-color: #00CB3B;
 }
-.five {
-  background-color: #B4F205;
-}
 input {
   margin-bottom: 30px;
 }
@@ -278,7 +283,4 @@ h1 {
 }
 .btnfour {
   background-color: #007F25;
-}
-.btnfive {
-  background-color: #7BA603;
 }
