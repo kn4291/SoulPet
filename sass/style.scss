@@ -119,7 +119,7 @@ text-align: center;
 .bounceOut {
   animation-delay: 2s;
 }
-.alert {
+.nextButtonSection-alert {
     padding: 20px;
     background-color: #f44336;
     color: white;
@@ -139,10 +139,11 @@ text-align: center;
 .closebtn:hover {
     color: black;
 }
-#newalert {
+#nextButtonSection-paragraph {
 display: none;
+margin-top: 50px;
 }
-#newalert p {
+#nextButtonSection-paragraph p {
   font-size: 50%;
 }
 

@@ -81,7 +81,7 @@ h2 {
 .bounceOut {
   animation-delay: 2s; }
 
-.alert {
+.nextButtonSection-alert {
   padding: 20px;
   background-color: #f44336;
   color: white; }
@@ -99,10 +99,11 @@ h2 {
 .closebtn:hover {
   color: black; }
 
-#newalert {
-  display: none; }
+#nextButtonSection-paragraph {
+  display: none;
+  margin-top: 50px; }
 
-#newalert p {
+#nextButtonSection-paragraph p {
   font-size: 50%; }
 
 /* ending question page */

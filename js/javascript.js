@@ -10,19 +10,19 @@ document.getElementById("startbutton").onclick = function () {
 function myFunction() {
   //alert functions
   if (document.forms["genders"].gender.value == "") {
-    document.getElementById("newalert").style.display = "block"; return false;
+    document.getElementById("nextButtonSection-paragraph").style.display = "block"; return false;
   }
   if (document.forms["relationships"].relationshipstatus.value == "") {
-document.getElementById("newalert").style.display = "block"; return false;
+document.getElementById("nextButtonSection-paragraph").style.display = "block"; return false;
   }
   if (document.forms["heights"].height.value == "") {
-    document.getElementById("newalert").style.display = "block"; return false;
+    document.getElementById("nextButtonSection-paragraph").style.display = "block"; return false;
   }
   if (document.forms["rightleft"].handed.value == "") {
-    document.getElementById("newalert").style.display = "block"; return false;
+    document.getElementById("nextButtonSection-paragraph").style.display = "block"; return false;
   }
   if (document.forms["colors"].color.value == "") {
-    document.getElementById("newalert").style.display = "block"; return false;
+    document.getElementById("nextButtonSection-paragraph").style.display = "block"; return false;
   }
 
 /*
