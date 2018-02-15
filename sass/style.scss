@@ -124,6 +124,10 @@ text-align: center;
   @extend .bodyResults;
     background-color: #B4F205;
 }
+.resultsfiveBody{
+  @extend .bodyResults;
+    background-color: #00CB3B;
+}
 .resultsHeader {
   @extend .questionHeader;
   margin:10px;
@@ -137,6 +141,10 @@ text-align: center;
 .shareButtonSection-button--lightgreen{
   @extend .shareButtonSection-button;
     background-color: #7BA603;
+}
+.shareButtonSection-button--darkgreen{
+  @extend .shareButtonSection-button;
+    background-color: #007F25;
 }
 .resultsHeading {
   font-size: 40px;
@@ -262,9 +270,7 @@ text-align: center;
 .three {
   background-color: #FFB800;
 }
-.four {
-  background-color: #00CB3B;
-}
+
 input {
   margin-bottom: 30px;
 }
@@ -280,7 +286,4 @@ h1 {
 }
 .btnthree {
   background-color: #FF8700;
-}
-.btnfour {
-  background-color: #007F25;
 }
