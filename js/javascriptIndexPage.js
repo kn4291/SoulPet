@@ -1,5 +1,5 @@
 //Enter your name function (START SCREEN)
-function enterName() {
+/*function enterName() {
   var txt;
     var person = prompt("Please enter your name:", "Harry Potter");
     if (person == null || person == "") {
@@ -14,3 +14,10 @@ window.onload = function(){
     enterName('show');
   },1000);
 }
+*/
+var yourText = new Vue({
+  el: '#yourText' ,
+  data: {
+message: ''
+  }
+})
