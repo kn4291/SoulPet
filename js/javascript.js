@@ -25,6 +25,8 @@ document.getElementById("nextButtonSection-paragraph").style.display = "block"; 
     document.getElementById("nextButtonSection-paragraph").style.display = "block"; return false;
   }
 
+//if I close the alert box and still don't answer all the questions, the box won't show up again....
+
 /*
   if (document.forms["relationships"].relationshipstatus.value == "") {
     alert("You'll have to choose your relationship status"); return false;
