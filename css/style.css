@@ -105,7 +105,7 @@
   flex-direction: row;
   justify-content: center; }
 
-.animatedMice-mouseone {
+.animatedMice-one {
   padding: 20px;
   margin-bottom: 50px;
   -webkit-animation: jump 1s infinite;
@@ -118,7 +118,7 @@
     transform: translateY(50px); }
   100% {
     transform: translateY(-20px); } }
-.animatedMice-mousetwo {
+.animatedMice-two {
   padding: 20px;
   margin-bottom: 50px;
   -webkit-animation: jump 1s infinite;
@@ -132,7 +132,7 @@
     transform: translateY(50px); }
   100% {
     transform: translateY(-20px); } }
-.animatedMice-mousethree {
+.animatedMice-three {
   padding: 20px;
   margin-bottom: 50px;
   -webkit-animation: jump 1s infinite;
@@ -146,7 +146,7 @@
     transform: translateY(50px); }
   100% {
     transform: translateY(-20px); } }
-.animatedMice-mousefour {
+.animatedMice-four {
   padding: 20px;
   margin-bottom: 50px;
   -webkit-animation: jump 1s infinite;
@@ -160,7 +160,7 @@
     transform: translateY(50px); }
   100% {
     transform: translateY(-20px); } }
-.animatedMice-mousefive {
+.animatedMice-five {
   padding: 20px;
   margin-bottom: 50px;
   -webkit-animation: jump 1s infinite;
@@ -174,7 +174,7 @@
     transform: translateY(50px); }
   100% {
     transform: translateY(-20px); } }
-.animatedMice-mousesix {
+.animatedMice-six {
   padding: 20px;
   margin-bottom: 50px;
   -webkit-animation: jump 1s infinite;
@@ -188,7 +188,7 @@
     transform: translateY(50px); }
   100% {
     transform: translateY(-20px); } }
-.animatedMice-mouseseven {
+.animatedMice-seven {
   padding: 20px;
   margin-bottom: 50px;
   -webkit-animation: jump 1s infinite;
@@ -202,7 +202,7 @@
     transform: translateY(50px); }
   100% {
     transform: translateY(-20px); } }
-.animatedMice-mouseeight {
+.animatedMice-eight {
   padding: 20px;
   margin-bottom: 50px;
   -webkit-animation: jump 1s infinite;
@@ -216,7 +216,7 @@
     transform: translateY(50px); }
   100% {
     transform: translateY(-20px); } }
-.animatedMice-mousenine {
+.animatedMice-nine {
   padding: 20px;
   margin-bottom: 50px;
   -webkit-animation: jump 1s infinite;
@@ -230,7 +230,7 @@
     transform: translateY(50px); }
   100% {
     transform: translateY(-20px); } }
-.animatedMice-mouseten {
+.animatedMice-ten {
   padding: 20px;
   margin-bottom: 50px;
   -webkit-animation: jump 1s infinite;
