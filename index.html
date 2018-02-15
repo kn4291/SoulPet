@@ -9,38 +9,33 @@
 <link rel="stylesheet" type="text/css" href="css/style.css.map">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
-<body class="bodyMain">
+<body onload="enterName()" class="bodyMain">
 
-  <header class="bodyMain-headerMainPage">
+  <header class="mainHeader">
   <!-- AUDIO EFFECTS -->
     <audio autoplay>
       <source src="audio/catpurr.mp3" type="audio/mp3">
     </audio>
     <!-- LOGO IMAGE -->
-<img class="bodyMain-headerMainPage-logoMain--center" src="img/logo2.png" alt="logo on main page"/>
+<img class="mainHeader-logo" src="img/logo2.png" alt="logo on main page"/>
   </header>
 
-  <main class="bodyMain-mainMainPage">
-    <!-- ENTER YOUR NAME - POP UP -->
-<section class="bodyMain-mainMainPage-sectionText--center">
-  <div class="bodyMain-mainMainPage-sectionText--center-paragraph--center">
-  <p id="demo"></p>
-  <!-- INTRUDOCTION TEXT -->
-  <p class="bodyMain-mainMainPage-sectionText--center-paragraph--center">This is a quiz to tell you which animal you should get as a life companion! <br>Answer these 5 questions and find out your destiny!</p>
+<main>
+<section class="introSection">
+<div class="demo">
+<p id="demo"></p></div>
+<p class="introSection-paragraph">This is a quiz to tell you which animal you should get as a life companion! <br>Answer these 5 questions and find out your destiny!</p>
     </section>
 
-<!-- START BUTTON -->
-<section class="bodyMain-mainMainPage-sectionButton--center">
-  <button id="startbutton" class="bodyMain-mainMainPage-sectionButton--center-startButton-center">Start</button>
+<section class="startButtonSection">
+  <button id="startbutton" class="startButtonSection-button">Start</button>
 </section>
 
   </main>
 
 <script src="js/vue.min.js"></script>
-
-<script src="https://unpkg.com/vue/dist/vue.js"></script>
 <script src="js/javascript.js"></script>
-<script src="js/javascriptIndexPage.js"></script>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
 
 </script>
 </body>
