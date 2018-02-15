@@ -10,8 +10,22 @@ document.getElementById("startbutton").onclick = function () {
 function myFunction() {
   //alert functions
   if (document.forms["genders"].gender.value == "") {
-    alert("You'll have to choose your gender"); return false;
+    document.getElementById("newalert").style.display = "block"; return false;
   }
+  if (document.forms["relationships"].relationshipstatus.value == "") {
+document.getElementById("newalert").style.display = "block"; return false;
+  }
+  if (document.forms["heights"].height.value == "") {
+    document.getElementById("newalert").style.display = "block"; return false;
+  }
+  if (document.forms["rightleft"].handed.value == "") {
+    document.getElementById("newalert").style.display = "block"; return false;
+  }
+  if (document.forms["colors"].color.value == "") {
+    document.getElementById("newalert").style.display = "block"; return false;
+  }
+
+/*
   if (document.forms["relationships"].relationshipstatus.value == "") {
     alert("You'll have to choose your relationship status"); return false;
   }
@@ -24,7 +38,7 @@ function myFunction() {
   if (document.forms["colors"].color.value == "") {
     alert("You'll have to choose your favorite color"); return false;
   }
-
+*/
 //favorite color controls which result page to show
 
 
