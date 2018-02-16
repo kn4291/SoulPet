@@ -69,7 +69,7 @@ text-align: center;
 .startButtonSection-button {
   @include margin-auto;
   margin-top: 70px;
-  padding: 25px 50px;
+  padding: 15px 25px;
   font-size: $font-size;
   color: $text-color;
   background-color: #7F266C;
@@ -141,7 +141,7 @@ text-align: center;
 }
 #nextButtonSection-paragraph {
 display: none;
-margin-top: 50px;
+margin-top: 15px;
 }
 #nextButtonSection-paragraph p {
   font-size: 50%;
@@ -322,6 +322,6 @@ input {
   margin-bottom: 30px;
 }
 h1 {
-  font-size: 35px;
+  font-size: 30px;
   margin-bottom: 20px;
 }
