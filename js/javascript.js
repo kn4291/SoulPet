@@ -1,16 +1,17 @@
-
-
-
 //Start button on start screen
 document.getElementById("startbutton").onclick = function () {
   location.href= "question.html";
 }
+<<<<<<< HEAD
 document.getElementById("alpacaButton").onclick = function () {
   window.location.href= "http://uncyclopedia.wikia.com/wiki/Llama";
 }
 // Question alert functions
+=======
+
+//Alert functions on question page
+>>>>>>> f766ac89d3276d825a870919d818bdbd464c477f
 function myResult() {
-  //alert functions
   if (document.forms["genders"].gender.value == "") {
     document.getElementById("nextButtonSection-paragraph").style.display = "block"; return false;
   }
@@ -60,3 +61,28 @@ window.location.href = "resultsfour.html"; return false;
 }
 
 }
+//old code for prompt where you entered your name
+//Enter your name function (START SCREEN)
+/*function enterName() {
+  var txt;
+    var person = prompt("Please enter your name:", "Harry Potter");
+    if (person == null || person == "") {
+        txt = "";
+    } else {
+        txt = "Hello " + person + "!";
+    }
+    document.getElementById("demo").innerHTML = txt;
+}
+window.onload = function(){
+  setTimeout(function(){
+    enterName('show');
+  },1000);
+}
+*/
+//vue code for entering your name on the index page
+var yourText = new Vue({
+  el: '#yourText' ,
+  data: {
+message: ''
+  }
+})

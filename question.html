@@ -11,78 +11,57 @@
 <link rel="stylesheet" type="text/css" href="css/animate.css">
 </head>
 <body class="bodyQuestion">
-
-  <header class="questionHeader">
-      <!-- LOGO IMAGE -->
+<header class="questionHeader">
+<!-- LOGO IMAGE -->
 <a href="index.html"><img src="img/logosmall.png" alt="logo on subpages"></a>
-
-  </header>
-
-  <main>
+</header>
+<main>
 
 <!-- QUESTIONS -->
-<section>
-  <p class="animated jackInTheBox">
-    What's your gender?
-  </p>
-  <form action="" name="genders">
-  <input type="radio" name="gender" value="male"> Male
-  <input type="radio" name="gender" value="female"> Female
-  <input type="radio" name="gender" value="other"> Other
-</form>
-</section>
-<section>
-<p class="animated jackInTheBox">
-    What's your relationship status?
-  </p>
-<form action="" name="relationships">
-  <input type="radio" name="relationshipstatus" value="single">Single
-  <input type="radio" class="animated bounceOut" name="relationshipstatus" value="in a relationship">In a relationship
-</form>
-</section>
-<section class="displayNone">
-  <p class="animated jackInTheBox">
-    Are you more than 170cm tall?
-  </p>
-  <form action="" name="heights">
-  <input type="radio" name="height" value="yes">Yes
-  <input type="radio" name="height" value="no">No
-</form>
-    </section>
+  <section>
+    <p class="animated jackInTheBox">What's your gender?</p>
+    <form action="" name="genders">
+      <input type="radio" name="gender" value="male"> Male
+      <input type="radio" name="gender" value="female"> Female
+      <input type="radio" name="gender" value="other"> Other</form>
+  </section>
+  <section>
+    <p class="animated jackInTheBox">What's your relationship status?</p>
+    <form action="" name="relationships">
+      <input type="radio" name="relationshipstatus" value="single">Single
+      <input type="radio" class="animated bounceOut" name="relationshipstatus" value="in a relationship">In a relationship</form>
+  </section>
   <section class="displayNone">
-  <p class="animated jackInTheBox">
-    Are you left or right handed?
-  </p>
-  <form action="" name="rightleft">
-  <input type="radio" name="handed" value="right">Right
-  <input type="radio" name="handed" value="left">Left
-</form>
-</section>
-<section>
-<p class="animated jackInTheBox">
-  What's your favorite color?
-</p>
-<form action="" name="colors">
-<div v-if="type==='blue'"><input type="radio" name="color" value="blue">Blue</div>
-<div v-if="type==='orange'"><input type="radio" name="color" value="orange">Orange</div>
-<div v-if="type==='black'"><input type="radio" name="color" value="black">Black</div>
-<div v-if="type==='beige'"><input type="radio" name="color" value="beige">Beige</div>
-<div v-if="type==='green'"><input type="radio" name="color" value="green">Green</div>
-</form>
-</section>
-
-
+  <p class="animated jackInTheBox">Are you more than 170cm tall?</p>
+  <form action="" name="heights">
+    <input type="radio" name="height" value="yes">Yes
+    <input type="radio" name="height" value="no">No</form>
+  </section>
+  <section class="displayNone">
+  <p class="animated jackInTheBox">Are you left or right handed?</p>
+    <form action="" name="rightleft">
+      <input type="radio" name="handed" value="right">Right
+      <input type="radio" name="handed" value="left">Left</form>
+  </section>
+  <section>
+  <p class="animated jackInTheBox">What's your favorite color?</p>
+    <form action="" name="colors">
+      <div v-if="type==='blue'"><input type="radio" name="color" value="blue">Blue</div>
+      <div v-if="type==='orange'"><input type="radio" name="color" value="orange">Orange</div>
+      <div v-if="type==='black'"><input type="radio" name="color" value="black">Black</div>
+      <div v-if="type==='beige'"><input type="radio" name="color" value="beige">Beige</div>
+      <div v-if="type==='green'"><input type="radio" name="color" value="green">Green</div></form>
+  </section>
 
 <!-- NEXT BUTTON -->
 <section class="nextButtonSection">
-  <div id="nextButtonSection-paragraph" class="nextButtonSection-alert">
+  <div id="nextButtonSection-paragraph"><div class="nextButtonSection-alert">
     <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
     <strong>Danger!</strong> You haven't answered all the questions!
-  </div>
+    </div></div>
 
-<button onclick="myResult()" class="nextButtonSection-button" id="nextquestion">Next</button>
+  <button onclick="myResult()" class="nextButtonSection-button" id="nextquestion">Next</button>
 </section>
-
 
 <!-- MOUSE ANIMATIONS -->
 <section class="animatedMice">
@@ -97,10 +76,7 @@
   <img class="animatedMice-nine" src="img/mouse.png"/>
   <img class="animatedMice-ten" src="img/mouse.png"/>
 </section>
-
-  </main>
+</main>
 <script src="js/javascript.js"></script>
-  <script src="js/vue.min.js"></script>
-  <script src="https://unpkg.com/vue/dist/vue.js"></script>
 </body>
 </html>
