@@ -7,7 +7,7 @@ document.getElementById("startbutton").onclick = function () {
 }
 
 // Question alert functions
-function myFunction() {
+function myResult() {
   //alert functions
   if (document.forms["genders"].gender.value == "") {
     document.getElementById("nextButtonSection-paragraph").style.display = "block"; return false;
@@ -25,9 +25,7 @@ document.getElementById("nextButtonSection-paragraph").style.display = "block"; 
     document.getElementById("nextButtonSection-paragraph").style.display = "block"; return false;
   }
 
-//if I close the alert box and still don't answer all the questions, the box won't show up again....
-
-/*
+/* old js code for alert functions (just in case)
   if (document.forms["relationships"].relationshipstatus.value == "") {
     alert("You'll have to choose your relationship status"); return false;
   }
@@ -41,9 +39,8 @@ document.getElementById("nextButtonSection-paragraph").style.display = "block"; 
     alert("You'll have to choose your favorite color"); return false;
   }
 */
+
 //favorite color controls which result page to show
-
-
 if (document.forms["colors"].color.value == "blue") {
 window.location.href = "results.html"; return false;
 }
