@@ -25,7 +25,6 @@ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
  }
 }
 /* -MAIN PAGE- */
-
 .bodyMain {
   font: 100% $font-stack;
   color: $text-color;
@@ -34,12 +33,10 @@ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 .mainHeader {
   @include display-flex;
 }
-
 .mainHeader-logo {
 @include margin-auto;
   padding-top: 90px;
   padding-bottom: 50px;
-
 }
 .introSection {
   font-size: $font-size;
@@ -62,7 +59,6 @@ h2 {
 @include margin-auto;
 text-align: center;
 }
-
 .startButtonSection {
   @extend .introSection;
 }
@@ -80,9 +76,7 @@ text-align: center;
 .startButtonSection-button:hover {
   @include shadow-button-hover;
 }
-
 /* - MAIN PAGE END - */
-
 /* Styling the question page */
 .bodyQuestion {
   background-color: #FF6E00;
@@ -101,11 +95,9 @@ text-align: center;
    border-radius: 5px;
    border: 0;
    @include shadow-button;
-
    @extend .startButtonSection-button;
    background-color: #FFA91F;
    margin-bottom: 50px;
-
 }
 .questionHeader {
   @include display-flex;
@@ -120,33 +112,30 @@ text-align: center;
   animation-delay: 2s;
 }
 .nextButtonSection-alert {
-    padding: 20px;
-    background-color: #f44336;
-    color: white;
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
 }
-
 .closebtn {
-    margin-left: 15px;
-    color: white;
-    font-weight: bold;
-    float: right;
-    font-size: 22px;
-    line-height: 20px;
-    cursor: pointer;
-    transition: 0.3s;
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
 }
-
 .closebtn:hover {
-    color: black;
+  color: black;
 }
 #nextButtonSection-paragraph {
-display: none;
-margin-top: 15px;
+  display: none;
+  margin-top: 15px;
 }
 #nextButtonSection-paragraph p {
   font-size: 50%;
 }
-
 /* ending question page */
 /* styling result page */
 .bodyResults {
@@ -158,19 +147,19 @@ margin-top: 15px;
 }
 .resultsfiveBody{
   @extend .bodyResults;
-    background-color: #B4F205;
+  background-color: #B4F205;
 }
 .resultsfourBody{
   @extend .bodyResults;
-    background-color: #00CB3B;
+  background-color: #00CB3B;
 }
 .resultsthreeBody{
   @extend .bodyResults;
-    background-color: #FFB800;
+  background-color: #FFB800;
 }
 .resultstwoBody{
   @extend .bodyResults;
-    background-color: #FF0031;
+  background-color: #FF0031;
 }
 .resultsHeader {
   @extend .questionHeader;
@@ -185,19 +174,19 @@ margin-top: 15px;
 }
 .shareButtonSection-button--lightgreen{
   @extend .shareButtonSection-button;
-    background-color: #7BA603;
+  background-color: #7BA603;
 }
 .shareButtonSection-button--darkgreen{
   @extend .shareButtonSection-button;
-    background-color: #007F25;
+  background-color: #007F25;
 }
 .shareButtonSection-button--yellow{
   @extend .shareButtonSection-button;
-    background-color:#FF8700;
+  background-color:#FF8700;
 }
 .shareButtonSection-button--red{
   @extend .shareButtonSection-button;
-    background-color:#A60020;
+  background-color:#A60020;
 }
 .resultsHeading {
   font-size: 32px;
@@ -207,9 +196,6 @@ margin-top: 15px;
   margin-top: 30px;
 }
 /* styling result page end */
-
-
-
 /* animation */
 .animatedMice {
   display:flex;
@@ -220,7 +206,6 @@ margin-top: 15px;
     padding: 20px ;
     margin-bottom: 50px;
   }
-
 .animatedMice-one {
   @include mice;
     -webkit-animation: jump 1s infinite  ;
@@ -231,76 +216,72 @@ margin-top: 15px;
 }
 .animatedMice-two {
   @include mice;
-    -webkit-animation: jump 1s infinite  ;
-    animation: jump 1s infinite ;
-    animation-delay: 0.15s;
+  -webkit-animation: jump 1s infinite  ;
+  animation: jump 1s infinite ;
+  animation-delay: 0.15s;
 }
  @keyframes jump {
  @include jump ;
 }
 .animatedMice-three {
   @include mice;
-    -webkit-animation: jump 1s infinite  ;
-    animation: jump 1s infinite ;
-    animation-delay: 0.3s;
+  -webkit-animation: jump 1s infinite  ;
+  animation: jump 1s infinite ;
+  animation-delay: 0.3s;
 }
  @keyframes jump {
  @include jump ;
 }
 .animatedMice-four {
   @include mice;
-    -webkit-animation: jump 1s infinite  ;
-    animation: jump 1s infinite ;
-    animation-delay: 0.45s;
+  -webkit-animation: jump 1s infinite  ;
+  animation: jump 1s infinite ;
+  animation-delay: 0.45s;
 }
  @keyframes jump {
  @include jump ;
 }
 .animatedMice-five {
   @include mice;
-    -webkit-animation: jump 1s infinite  ;
-    animation: jump 1s infinite ;
-    animation-delay: 0.6s;
+  -webkit-animation: jump 1s infinite  ;
+  animation: jump 1s infinite ;
+  animation-delay: 0.6s;
 }
  @keyframes jump {
  @include jump ;
-
 }
 .animatedMice-six {
   @include mice;
-    -webkit-animation: jump 1s infinite  ;
-    animation: jump 1s infinite ;
-    animation-delay: 0.75s;
+  -webkit-animation: jump 1s infinite  ;
+  animation: jump 1s infinite ;
+  animation-delay: 0.75s;
 }
  @keyframes jump {
  @include jump ;
-
 }
 .animatedMice-seven {
   @include mice;
-    -webkit-animation: jump 1s infinite  ;
-    animation: jump 1s infinite ;
-    animation-delay: 0.9s;
+  -webkit-animation: jump 1s infinite  ;
+  animation: jump 1s infinite ;
+  animation-delay: 0.9s;
 }
  @keyframes jump {
  @include jump ;
-
 }
 .animatedMice-eight {
   @include mice;
-    -webkit-animation: jump 1s infinite  ;
-    animation: jump 1s infinite ;
-    animation-delay: 1.05s;
+  -webkit-animation: jump 1s infinite  ;
+  animation: jump 1s infinite ;
+  animation-delay: 1.05s;
 }
  @keyframes jump {
  @include jump ;
-
 }
 .animatedMice-nine {
   @include mice;
-    -webkit-animation: jump 1s infinite  ;
-    animation: jump 1s infinite ;
-    animation-delay: 1.2s;
+  -webkit-animation: jump 1s infinite  ;
+  animation: jump 1s infinite ;
+  animation-delay: 1.2s;
 }
  @keyframes jump {
  @include jump ;
@@ -308,16 +289,14 @@ margin-top: 15px;
 }
 .animatedMice-ten {
   @include mice;
-    -webkit-animation: jump 1s infinite  ;
-    animation: jump 1s infinite ;
-    animation-delay: 1.35s;
+  -webkit-animation: jump 1s infinite  ;
+  animation: jump 1s infinite ;
+  animation-delay: 1.35s;
 }
  @keyframes jump {
  @include jump ;
-
 }
 /* animation ends */
-
 input {
   margin-bottom: 30px;
 }
