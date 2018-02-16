@@ -2,15 +2,10 @@
 document.getElementById("startbutton").onclick = function () {
   location.href= "question.html";
 }
-<<<<<<< HEAD
-document.getElementById("alpacaButton").onclick = function () {
-  window.location.href= "http://uncyclopedia.wikia.com/wiki/Llama";
-}
 // Question alert functions
-=======
+
 
 //Alert functions on question page
->>>>>>> f766ac89d3276d825a870919d818bdbd464c477f
 function myResult() {
   if (document.forms["genders"].gender.value == "") {
     document.getElementById("nextButtonSection-paragraph").style.display = "block"; return false;
