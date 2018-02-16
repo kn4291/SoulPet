@@ -5,7 +5,9 @@
 document.getElementById("startbutton").onclick = function () {
   location.href= "question.html";
 }
-
+document.getElementById("alpacaButton").onclick = function () {
+  window.location.href= "http://uncyclopedia.wikia.com/wiki/Llama";
+}
 // Question alert functions
 function myResult() {
   //alert functions
