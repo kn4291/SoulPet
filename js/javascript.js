@@ -3,9 +3,8 @@ document.getElementById("startbutton").onclick = function () {
   location.href= "question.html";
 }
 
-// Question alert functions
+//Alert functions on question page
 function myResult() {
-  //alert functions
   if (document.forms["genders"].gender.value == "") {
     document.getElementById("nextButtonSection-paragraph").style.display = "block"; return false;
   }
@@ -73,6 +72,7 @@ window.onload = function(){
   },1000);
 }
 */
+//vue code for entering your name on the index page
 var yourText = new Vue({
   el: '#yourText' ,
   data: {
