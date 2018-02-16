@@ -18,62 +18,64 @@
   <main>
     <!-- QUESTIONS -->
   <section>
-      <p class="animated jackInTheBox">What's your gender?</p>
-      <form action="" name="genders">
+    <p class="animated jackInTheBox">What's your gender?</p>
+    <form action="" name="genders">
       <input type="radio" name="gender" value="male" id="male">
-          <label for="male">Male</label>
+      <label for="male">Male</label>
       <input type="radio" name="gender" value="female" id="female">
-          <label for="female">Female</label>
+      <label for="female">Female</label>
       <input type="radio" name="gender" value="other" id="other">
-          <label for="other">Other</label></form>
+      <label for="other">Other</label>
+    </form>
   </section>
-    <section>
-      <p class="animated jackInTheBox">What's your relationship status?</p>
-      <form action="" name="relationships">
-        <input type="radio" name="relationshipstatus" value="single" id="single">
-            <label for="single">Single</label>
-        <input type="radio" class="animated bounceOut" name="relationshipstatus" value="in a relationship" id="inRelationship">
-            <label for="inRelationship">In a relationship</label></form>
-    </section>
-    <section class="displayNone">
-      <p class="animated jackInTheBox">Are you more than 170cm tall?</p>
-      <form action="" name="heights">
-          <input type="radio" name="height" value="yes" id="yes">
-              <label for="yes">Yes</label>
-          <input type="radio" name="height" value="no" id="no">
-              <label for="no">No</label></form>
-    </section>
-    <section class="displayNone">
-      <p class="animated jackInTheBox">Are you left or right handed?</p>
-      <form action="" name="rightleft">
-          <input type="radio" name="handed" value="right" id="right">
-              <label for="right">Right</label>
-          <input type="radio" name="handed" value="left" id="left">
-              <label for="left">Left</label></form>
-    </section>
-
-
-    <section>
-      <p class="animated jackInTheBox">What's your favorite color?</p>
-      <form action="" name="colors">
-        <input type="radio" name="color" value="blue" id="blue">
-            <label for="blue">Blue</label>
-        <input type="radio" name="color" value="orange" id="orange">
-            <label for="orange">Orange</label>
-        <input type="radio" name="color" value="black" id="black">
-             <label for="black">Black</label>
-        <input type="radio" name="color" value="beige" id="beige">
-             <label for="beige">Beige</label>
-        <input type="radio" name="color" value="green" id="green">
-            <label for="green">Green</label>
-      </form>
+  <section>
+    <p class="animated jackInTheBox">What's your relationship status?</p>
+    <form action="" name="relationships">
+      <input type="radio" name="relationshipstatus" value="single" id="single">
+      <label for="single">Single</label>
+      <input type="radio" class="animated bounceOut" name="relationshipstatus" value="in a relationship" id="inRelationship">
+      <label for="inRelationship">In a relationship</label>
+    </form>
+  </section>
+  <section class="displayNone">
+    <p class="animated jackInTheBox">Are you more than 170cm tall?</p>
+    <form action="" name="heights">
+      <input type="radio" name="height" value="yes" id="yes">
+      <label for="yes">Yes</label>
+      <input type="radio" name="height" value="no" id="no">
+      <label for="no">No</label>
+    </form>
+  </section>
+  <section class="displayNone">
+    <p class="animated jackInTheBox">Are you left or right handed?</p>
+    <form action="" name="rightleft">
+      <input type="radio" name="handed" value="right" id="right">
+      <label for="right">Right</label>
+      <input type="radio" name="handed" value="left" id="left">
+      <label for="left">Left</label>
+    </form>
+  </section>
+  <section>
+    <p class="animated jackInTheBox">What's your favorite color?</p>
+    <form action="" name="colors">
+      <input type="radio" name="color" value="blue" id="blue">
+      <label for="blue">Blue</label>
+      <input type="radio" name="color" value="orange" id="orange">
+      <label for="orange">Orange</label>
+      <input type="radio" name="color" value="black" id="black">
+      <label for="black">Black</label>
+      <input type="radio" name="color" value="beige" id="beige">
+      <label for="beige">Beige</label>
+      <input type="radio" name="color" value="green" id="green">
+      <label for="green">Green</label>
+    </form>
     </section>
     <!-- NEXT BUTTON -->
     <section class="nextButtonSection">
       <div id="nextButtonSection-paragraph"><div class="nextButtonSection-alert">
       <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
       <strong>Danger!</strong> You haven't answered all the questions!
-    </div></div>
+      </div></div>
       <button onclick="myResult()" class="nextButtonSection-button" id="nextquestion">Next</button>
     </section>
 <!-- MOUSE ANIMATIONS -->
